@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <HeaderTwo />
         {/* <HeaderThree /> */}
         {/* <Switch>
@@ -19,8 +19,8 @@ function App() {
           <Route path="/">
             <Home />
             <HeaderTwo /> */}
-           {/* </Route>  
-        </Switch> */} 
+           {/* </Route>
+        </Switch> */}
       </div>
     </Router>
   );
